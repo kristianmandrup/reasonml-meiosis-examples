@@ -1,9 +1,9 @@
 /*global __dirname*/
-var path = require("path")
+var path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./src/index.js",
+  entry: "./src/Main.bs.js",
   output: {
     path: path.join(__dirname, "build"),
     filename: "generated-app.js"
@@ -22,4 +22,4 @@ module.exports = {
       }
     ]
   }
-}
+};

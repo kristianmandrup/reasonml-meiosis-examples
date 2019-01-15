@@ -1,5 +1,5 @@
 open Patchinko;
-open Validation;
+/* open Validation; */
 
 let actions = update => ({
   editDate: value =>
@@ -11,11 +11,11 @@ let actions = update => ({
   editMinute: value =>
     update({ dateTime: ps({ minute: value }) }),
 
-  validate: state => {
+  /* validate: state => {
     let errors = validateInput(state);
     let errorKeys = [%bs.raw {|Object.keys(errors)|}];
     update({ errors, conditions: ps({
       message: (errors && errorKeys.length > 0 && "Invalid!") || "Valid!"
     }) })
-  }
+  } */
 });

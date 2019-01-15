@@ -3,14 +3,14 @@ import DateExtensions from "joi-date-extensions"
 import _ from "lodash" */
 
 /* let Joi = BaseJoi.extend(DateExtensions) */
-open Joi;
+/* open Joi; */
 
 let schema = {
-  dateTime: {
+  /* dateTime: {
     date: Joi.date().format("YYYY-MM-DD").required(),
     hour: Joi.number().integer().min(0).max(23).required(),
     minute: Joi.number().integer().min(0).max(59).required()
-  }
+  } */
 }
 
 let options = {
@@ -25,9 +25,8 @@ let options = {
 }
 
 let validateInput = input => {
-  let result = Joi.validate(input, schema, options);
-
-  let errors = {};
+  let errors = {};  
+  /* let result = Joi.validate(input, schema, options);
   let details = _.get(result, ["error", "details"], []);
 
   for (i in 0 to details.length) {
@@ -36,6 +35,6 @@ let validateInput = input => {
     if (!_.get(errors, path)) {
       _.set(errors, path, details[i].message);
     }
-  }
+  } */
   errors;
 };

@@ -29,9 +29,6 @@
     "bs-patchinko": "kristianmandrup/bs-patchinko",
     "bs-lit-html": "kristianmandrup/bs-lit-html",
     "flyd": "^0.2.8",
-    "joi": "^14.3.0",
-    "joi-browser": "^13.4.0",
-    "joi-date-extensions": "^1.2.0",
     "lit-html": "^0.14.0",
     "patchinko": "^4.1.0"
   },
