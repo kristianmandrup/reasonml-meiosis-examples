@@ -1,7 +1,7 @@
 {
   "name": "meiosis-setup-lit-html",
   "version": "1.0.0",
-  "description": "meiosis-examples setup lit-html",
+  "description": "ReasonML meiosis-examples with lit-html",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack",
