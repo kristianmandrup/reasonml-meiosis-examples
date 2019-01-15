@@ -18,11 +18,13 @@ Using:
 - [bs-flyd](https://github.com/kristianmandrup/bs-flyd)
 - [bs-patchinko](https://github.com/kristianmandrup/bs-patchinko)
 
-Started portin mithril stream: [bs-mithril-stream](https://github.com/kristianmandrup/bs-mithril-stream)
+Also started creating bindings for mithril stream: [bs-mithril-stream](https://github.com/kristianmandrup/bs-mithril-stream)
 
 Would much welcome a basic port of the [Joi validation library](https://github.com/hapijs/joi)
 
 TODO: Use the Meiosis stream tracer via [bs-meiosis-tracer](https://github.com/kristianmandrup/bs-meiosis-tracer)
+
+To help porting these libs to bucklescript (and hence ReasonML) see [FFI cheatsheet](https://github.com/glennsl/bucklescript-ffi-cheatsheet) and go for it!
 
 ## Starting the static server
 
