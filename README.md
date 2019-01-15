@@ -10,6 +10,18 @@ You can obtain the examples by cloning the git repository:
 git clone https://github.com/kristianmandrup/reasonml-meiosis-examples.git
 ```
 
+Currently attempting to port the lit-html temperature display app to ReasonML. The original JS example can be seen in action [here](https://meiosis.js.org/examples/setup/lit-html/index.html).
+
+Using:
+
+- [bs-lit-html](https://github.com/kristianmandrup/bs-lit-html)
+- [bs-flyd](https://github.com/kristianmandrup/bs-flyd)
+- [bs-patchinko](https://github.com/kristianmandrup/bs-patchinko)
+
+Started portin mithril stream: [bs-mithril-stream](https://github.com/kristianmandrup/bs-mithril-stream)
+
+Would much welcome a basic port of the [Joi validation library](https://github.com/hapijs/joi)
+
 ## Starting the static server
 
 To start the static server, go to the `meiosis-examples` directory and run:
