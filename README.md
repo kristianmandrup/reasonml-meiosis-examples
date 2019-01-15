@@ -22,6 +22,8 @@ Started portin mithril stream: [bs-mithril-stream](https://github.com/kristianma
 
 Would much welcome a basic port of the [Joi validation library](https://github.com/hapijs/joi)
 
+TODO: Use the Meiosis stream tracer via [bs-meiosis-tracer](https://github.com/kristianmandrup/bs-meiosis-tracer)
+
 ## Starting the static server
 
 To start the static server, go to the `meiosis-examples` directory and run:
