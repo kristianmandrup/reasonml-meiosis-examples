@@ -2,9 +2,9 @@
 
 ReasonML examples for the [Meiosis](http://github.com/foxdonut/meiosis) library.
 
-Noite: Original javascript version with many more examples can be found [here](https://github.com/foxdonut/meiosis-examples)
-
-[Playlist of Meiosis videos/tutorials](https://www.youtube.com/watch?v=0mhpECObLdc&index=1&list=UUl5aITiWNhBj8xx_rXjh6ZA)
+- Original javascript version with many more examples can be found [here](https://github.com/foxdonut/meiosis-examples)
+- [Playlist of Meiosis videos/tutorials](https://www.youtube.com/watch?v=0mhpECObLdc&index=1&list=UUl5aITiWNhBj8xx_rXjh6ZA)
+- [Meiosis tutorial](https://meiosis.js.org/tutorial/toc.html)
 
 You can obtain the examples by cloning the git repository:
 
