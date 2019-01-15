@@ -17,8 +17,9 @@ Currently attempting to port the lit-html temperature display app to ReasonML. T
 Using:
 
 - [bs-lit-html](https://github.com/kristianmandrup/bs-lit-html)
-- [bs-flyd](https://github.com/kristianmandrup/bs-flyd)
+- [bs-flyd](https://github.com/kristianmandrup/bs-flyd) (broken)
 - [bs-patchinko](https://github.com/kristianmandrup/bs-patchinko)
+- [bs-universal-router](https://github.com/kristianmandrup/bs-universal-router) (broken)
 
 Also started creating bindings for mithril stream: [bs-mithril-stream](https://github.com/kristianmandrup/bs-mithril-stream)
 
