@@ -1,0 +1,30 @@
+{
+  "name": "reasonml-meiosis-examples",
+  "version": "0.1.0",
+  "description": "reasonml meiosis app examples",
+  "scripts": {
+    "start": "static-server -p ${PORT:-3000}",
+    "reload": "reload -w examples/random-gif/build,examples/setup/lit-html/build,examples/setup/mithril/build,examples/setup/preact/build,examples/setup/react/build,examples/todo-list/build,examples/todomvc/build -p ${PORT:-3000}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxdonut/meiosis-examples.git"
+  },
+  "keywords": [
+    "example",
+    "meiosis",
+    "reactive"
+  ],
+  "author": "foxdonut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foxdonut/meiosis-examples/issues"
+  },
+  "homepage": "https://github.com/foxdonut/meiosis-examples#readme",
+  "dependencies": {
+    "static-server": "^2.2.1"
+  },
+  "devDependencies": {
+    "reload": "^2.4.0"
+  }
+}
