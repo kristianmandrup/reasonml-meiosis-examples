@@ -31,7 +31,7 @@ To help porting these libs to bucklescript (and hence ReasonML) see [FFI cheatsh
 
 ## Starting the static server
 
-To start the static server, go to the `meiosis-examples` directory and run:
+To start the static server, go to the `src/lit-html` directory and run:
 
 ```
 npm i
@@ -49,14 +49,14 @@ You will see two tables of all the examples. The first table is organized by vie
 
 ## Building an example
 
-Before running an example, you need to build it. Go to the directory of the example, such as `examples/todomvc`, and run:
+Before running an example, you need to build it. Go to the directory of the example, such as `src/lit-html`, and run:
 
 ```
 npm i
 npm start
 ```
 
-Again, you only need `npm i` the first time.
+You only need `npm i` the first time.
 
 Once built, you can view the example by navigating to it from the examples index page at [http://localhost:3000](http://localhost:3000).
 
@@ -68,3 +68,21 @@ npm run watch
 ```
 
 This will automatically rebuild the example when you make changes to the source code.
+
+## Resources
+
+### Generic UI framworks
+
+[revery-ui](https://github.com/revery-ui/revery) could serve as inspiration for a general purpose UI "language".
+
+"Native, high-performance, cross-platform desktop apps - built with Reason! - revery-ui/revery"
+
+`revery-ui` is a React-style unidirectional data flow framework for writing apps
+
+## Application model language (AppML)
+
+[application-model-lang](https://github.com/kristianmandrup/application-model-lang)
+
+Declare the outline of your application declaratively. Plugin a set of services for your language/framework preferences. Select specific service templates to be used (such as for customization)
+
+The compiler will then parse the definition, send the AST nodes to subscribing services which "spit out" application artifacts according to your preferences.
